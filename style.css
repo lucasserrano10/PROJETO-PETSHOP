@@ -1,0 +1,214 @@
+@charset "UTF-8";
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+:root{
+    --transition: .5s
+}
+header {
+    background-color: #A68A56;
+}
+
+header h1{
+    color: #ffffff;
+    font-family: "Style Script", cursive;
+    font-weight: bolder;
+    font-style: normal;
+    padding: 20px 10px;
+
+}
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    width: 100%;
+    justify-content: flex-end;
+}
+
+header nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex; 
+}
+
+header nav ul li {
+    margin-right: 20px;
+}
+
+header nav ul li:last-child {
+    margin-right: 0;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+header nav ul li a:hover{
+    color:transparent;
+}
+html {
+    font-size: 62.5%;
+}
+
+body{
+    font-size: 1.6rem;
+}
+
+a{
+    text-decoration: none;
+    color: var(--color-blue);
+    font-weight: 900;
+    transition: var(--transition);
+}
+
+img {
+    max-width: 100%;
+}
+
+.btn{
+    background-color: #D9D9D9;
+    color: black;
+    border: 4px solid #F2DE79;
+    padding: 8px 3.5rem;
+    border-radius: 5px;
+    transition: var(--transition);
+}
+
+.btn:hover{
+    background-color: transparent;
+    color: var(--color-blue);
+}
+
+.inicial{
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(imagens/imagem2-petshop.jpg),linear-gradient(rgba(0, 0, 0, 0.786),rgba(5, 3, 3, 0.582));
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+
+.inicial-content{
+    width: 60%;
+    padding: 5rem;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+}
+
+.inicial-content h2{
+    font-size: 5vmin;
+}
+
+.inicial-content p{
+    font-weight: 600;
+    margin-bottom: 2rem;
+    line-height: 3.6rem;
+}
+
+.hotel-tittle{
+    font-size: 5vmin;
+    text-align: center;
+    margin: 4rem 0 2rem;
+    color: #A68A56;
+    text-shadow: 2px 2px 2px #ccc;
+}
+
+.hotel-list{
+    color: #592D07;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.hotel-item{
+    width: 28%;
+    margin: 3rem 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    box-shadow: 1px 1px 30px #ccc;
+    border-radius: 5px;
+    transition: var(--transition);
+}
+.hotel-item:hover{
+    transform: scale(1.1);
+}
+.hotel-item img{
+    width: 60%;
+    border-radius: 5px;
+}
+.hotel-item h3 {
+    margin: 2rem 0;
+    font-weight: 800;
+}
+
+.hotel-item p{
+    margin: 0 0 3rem;
+    width: 80%;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+@media only screen and (max-width: 768px) {
+header nav {
+    display: none; /* Esconder o menu de navegação original */
+}
+
+.hamburger-menu {
+    display: block; /* Exibir o ícone do menu hamburguer */
+}
+
+.nav-links {
+    display: none;
+    position: absolute;
+    background-color: #A68A56;
+    width: 100%;
+    top: 60px; 
+    left: 0;
+    text-align: center;
+}
+
+.nav-links li {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.nav-links a {
+    color: #ffffff;
+    padding: 15px 0;
+    display: block;
+}
+
+.inicial-content {
+    width: 90%; /* Ajuste conforme necessário */
+    padding: 2rem;
+}
+
+.hotel-item {
+    width: 90%; /* Ajuste conforme necessário */
+    margin: 3rem auto;
+}
+
+.hotel-item img {
+    width: 100%;
+}
+}
