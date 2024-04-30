@@ -114,16 +114,14 @@ img {
     margin-bottom: 2rem;
     line-height: 3.6rem;
 }
-
-.hotel-tittle{
+.pet-tittle{
     font-size: 5vmin;
     text-align: center;
     margin: 4rem 0 2rem;
     color: #A68A56;
     text-shadow: 2px 2px 2px #ccc;
 }
-
-.hotel-list{
+.pet-list{
     color: #592D07;
     width: 100%;
     display: flex;
@@ -131,8 +129,7 @@ img {
     align-items: center;
     justify-content: space-evenly;
 }
-
-.hotel-item{
+.pet-item{
     width: 28%;
     margin: 3rem 0;
     text-align: center;
@@ -145,19 +142,20 @@ img {
     border-radius: 5px;
     transition: var(--transition);
 }
-.hotel-item:hover{
+
+.pet-item:hover{
     transform: scale(1.1);
 }
-.hotel-item img{
+.pet-item img{
     width: 60%;
     border-radius: 5px;
 }
-.hotel-item h3 {
+.pet-item h3 {
     margin: 2rem 0;
     font-weight: 800;
 }
 
-.hotel-item p{
+.pet-item p{
     margin: 0 0 3rem;
     width: 80%;
 }
@@ -203,12 +201,12 @@ header nav {
     padding: 2rem;
 }
 
-.hotel-item {
+.pet-item {
     width: 90%; /* Ajuste conforme necessário */
     margin: 3rem auto;
 }
 
-.hotel-item img {
+.pet-item img {
     width: 100%;
 }
 }
