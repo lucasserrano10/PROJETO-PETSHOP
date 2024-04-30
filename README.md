@@ -1,5 +1,10 @@
 # PROJETO PETSHOP MOSTRANDO PRODUTOS E INFORMAÇÕES EM CARDS 🐶
 
+INTEGRANTES ->
+RM 555170 - LUCAS SERRANO 
+RM 554421 - GABRIEL MELLO
+RM 557454 - PEDRO NOBRE 
+
 Este projeto é parte de um trabalho acadêmico desenvolvido para demonstrar habilidades de desenvolvimento web, com foco na criação de um site responsivo para promover a adoção de cachorros e a venda de produtos relacionados.
 
 #Visão Geral
